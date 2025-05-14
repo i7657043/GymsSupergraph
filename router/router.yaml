@@ -1,0 +1,10 @@
+version: 1
+subgraphs:
+  - name: gyms
+    routing_url: http://localhost:4001/graphql
+    schema:
+      file: ../subgraphs/gyms_schema.graphql
+  - name: managers
+    routing_url: http://localhost:4002/graphql
+    schema:
+      file: ../subgraphs/managers_schema.graphql

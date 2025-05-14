@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymApi", "GymApi\GymApi.csproj", "{F713E872-B31C-4896-ABA2-6E85652E8305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagersApi", "ManagersApi\ManagersApi.csproj", "{1182CBB5-52F4-4887-A9E3-882270C37748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libs", "Libs\Libs.csproj", "{933FA693-E4E2-4D17-99F2-2CC682631F55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F713E872-B31C-4896-ABA2-6E85652E8305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F713E872-B31C-4896-ABA2-6E85652E8305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F713E872-B31C-4896-ABA2-6E85652E8305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F713E872-B31C-4896-ABA2-6E85652E8305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1182CBB5-52F4-4887-A9E3-882270C37748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1182CBB5-52F4-4887-A9E3-882270C37748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1182CBB5-52F4-4887-A9E3-882270C37748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1182CBB5-52F4-4887-A9E3-882270C37748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933FA693-E4E2-4D17-99F2-2CC682631F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933FA693-E4E2-4D17-99F2-2CC682631F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933FA693-E4E2-4D17-99F2-2CC682631F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933FA693-E4E2-4D17-99F2-2CC682631F55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B12A6666-FF10-4960-A721-99CD778083FB}
+	EndGlobalSection
+EndGlobal
